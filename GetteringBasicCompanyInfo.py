@@ -108,6 +108,7 @@ class GetBasicCompanyInfoFromOpenDart:
             f.write('\n')
         
 if __name__ == "__main__":
+    print('start project')
     year = 2019
     while year>0:
         BasicInfo = GetBasicCompanyInfoFromOpenDart('00126380',str(year),'11011') #00126380 삼성전자 사업보고서
